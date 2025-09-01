@@ -1,0 +1,161 @@
+"# Athelets" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DGVC Athletes - Sports Shoe Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1542291026-7eec264c27ff') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+    }
+
+    .products {
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .product-info {
+      padding: 15px;
+    }
+
+    .product-info h3 {
+      margin: 0 0 10px;
+    }
+
+    .product-info p {
+      margin: 0 0 10px;
+      color: #555;
+    }
+
+    .product-info .price {
+      font-weight: bold;
+      color: #000;
+    }
+
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>DGVC Athletes</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Unleash Your Speed</h2>
+    <p>Premium Athletic Shoes for Champions</p>
+  </section>
+
+  <section class="products">
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1580937113915-1c684b9a9d2c" alt="Running Shoe">
+      <div class="product-info">
+        <h3>SpeedX Runner</h3>
+        <p>Lightweight & fast — ideal for track athletes.</p>
+        <p class="price">$99.99</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1595950653106-6b9d5e4e9d9d" alt="Trail Shoe">
+      <div class="product-info">
+        <h3>GripPro Trail</h3>
+        <p>Designed for durability and grip on rugged terrains.</p>
+        <p class="price">$129.99</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1562183241-b937e95585b0" alt="Training Shoe">
+      <div class="product-info">
+        <h3>Core Trainer</h3>
+        <p>Perfect support for gym and cross-training workouts.</p>
+        <p class="price">$89.99</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 DGVC Athletes. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
